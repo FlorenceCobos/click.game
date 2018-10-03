@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width: 100vw;
+
+}
+
+header{
+  background-color:#011640;
+
+  height: 10vh;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo{
+  justify-content: flex-start;
+  height: 80%;
+
+  display: flex;
+  color: black;
+  padding-left: 5%;
+
+
+}
+
+h1{display: flex;
+  font-size: 35px;
+  font-family: 'Nothing You Could Do', cursive;
+  justify-content:center;
+  width: 100vw;
+  color: white;
+  margin-right: 270px;
+
+
+}
+
+main{
+  background-image: url("./plateautv.jpg");
+
+  height: 80vh;
+  display: flex;
+
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.kenburns-top-left {
+	-webkit-animation: kenburns-top-left 5s ease-out both;
+	        animation: kenburns-top-left 5s ease-out both;
+}
+
+
+p{
+  font-size: 20px;
+  height: 30%;
+  padding: 10px;
+  font-family: 'Noto Serif JP', sans-serif;
+font-family: 'Quicksand', sans-serif;
+color: white;
+
+}
+
+.texte{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+aside{
+  height: 100%;
+  width: 10%;
+  background-color: white;
+  transition: margin-left 0.5s;
+  overflow: hidden;
+  /*si le contenu est plus grand que le conteneur le cacher*/
+   white-space: nowrap;
+   color: blue;
+   font-family: 'Noto Serif JP', sans-serif;
+   text-align: center;
+
+}
+footer{
+  background-color: #011640;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+
+  font-family: 'Noto Serif JP', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+.full-height{
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  background-color: white;
+  border: solid none;
+}
+.full-height:hover{
+  color: #0095ff;
+}
+
+.width-hidden{
+  margin-left: -10%;
+}
+
+.game-image{
+  position: fixed;
+  top: 0;
+}
+
+.boutons{
+
+display: flex;
+flex-direction: column;
+height: 70%;
+width: 12%;
+border:solid none;
+
+}
+
+.miam{
+  height: 100%;
+
+}
+
+.game{
+  height: 100%;
+}
