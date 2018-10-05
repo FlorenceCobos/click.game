@@ -46,7 +46,7 @@ document.querySelector("#gameStart").addEventListener("click",function(){
     if (click.id == "positif"){
       click.remove();
     }else if(click.id =="negatif") {
-      document.querySelector('body').style.transform= rotate(360deg)
+      document.querySelector('body').style.transform= rotate(360 deg)
       
     }
     
